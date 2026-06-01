@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<Model Name="MonorailTurnoutSubpart3">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Material Name="PaintedMetal_Colorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorable_add.dds</Parameter>
+	</Material>
+	<Material Name="PaintedMetalScratched_Darker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalScratchedDarker_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalScratchedColorable_ng.dds</Parameter>
+	</Material>
+	<Material Name="RubberWheels">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\RubberWheels_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\RubberWheels_ng.dds</Parameter>
+	</Material>
+	<Material Name="PaintedMetal_Yellow">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalYellow_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+	</Material>
+	<Material Name="Metal_Dull">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Aluminium_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\AluminiumDull_ng.dds</Parameter>
+	</Material>
+	<Material Name="PaintedMetal_Darker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalDarker_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+	</Material>
+	<Material Name="Atlas1">
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas1_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas1_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Atlas3_Chrome">
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas3_Chrome_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas3_Chrome_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas3_Chrome_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas3_alphamask.dds</Parameter>
+	</Material>
+	<MaterialRef Name="PaintedMetal_VeryDark"/>
+	<Material Name="GenericGlass">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="Emissive">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\EmissiveAtlas_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\EmissiveAtlas_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\EmissiveAtlas_add.dds</Parameter>
+	</Material>
+	<Material Name="Atlas3_Colorable">
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas3_Colorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas3_Colorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas3_Colorable_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas3_alphamask.dds</Parameter>
+	</Material>
+	<LOD Distance="25">
+		<Model>Models\Cubes\large\MonorailTurnoutSubpart3_LOD1</Model>
+	</LOD>
+	<LOD Distance="50">
+		<Model>Models\Cubes\large\MonorailTurnoutSubpart3_LOD2</Model>
+	</LOD>
+	<LOD Distance="100">
+		<Model>Models\Cubes\large\MonorailTurnoutSubpart3_LOD3</Model>
+	</LOD>
+</Model>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Model Name="MonorailSuspensionTopSGWheel">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Material Name="Construction">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Chrome_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
+	</Material>
+	<LOD Distance="25">
+		<Model>Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3_LOD1</Model>
+	</LOD>
+</Model>

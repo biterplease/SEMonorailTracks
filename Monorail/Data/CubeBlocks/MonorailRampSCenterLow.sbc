@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>MonorailRampSCenterLow</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailRampSCenterLow}</DisplayName>
+			<Description>{LOC:Description_MonorailRampS}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailRampSCenterLow.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="20"/>
+			<Center x="0" y="0" z="9"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\MonorailRampSCenterLow.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="400"/>
+				<Component Subtype="Girder" Count="15"/>
+				<Component Subtype="Construction" Count="12"/>
+				<Component Subtype="SteelPlate" Count="100"/>
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.14" StartY="1.14" EndX="0.86" EndY="1.86"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="19.00" StartY="0.00" EndX="20.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="10.00" EndX="1.00" EndY="11.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="19.00" EndX="1.00" EndY="20.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailRampSCenterLow_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailRampSCenterLow_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailRampSCenterLow_BS3.mwm"/>
+			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<GeneralDamageMultiplier>0.05</GeneralDamageMultiplier>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

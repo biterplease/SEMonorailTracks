@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SteamIDOwner>76561198031538501</SteamIDOwner>
+  <WorkshopId>0</WorkshopId>
+  <Name>Monorail</Name>
+  <Authors>
+    <Author>biter_please</Author>
+  </Authors>
+  <Description>Monorail blocks.</Description>
+  <Version>0</Version>
+  <Tags>
+    <Tag>block</Tag>
+    <Tag>Monorail</Tag>
+    <Tag>trains</Tag>
+    <Tag>transport</Tag>
+  </Tags>
+</MyObjectBuilder_ModInfo>

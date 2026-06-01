@@ -1,0 +1,256 @@
+Running from: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small 
+Command: E:\BlenderAssets_SE\Tools\MWMBuilder\MwmBuilder.exe /f /s:C:\Users\dangu\source\repos\Monorail\Models\Cubes\small /m:MonorailSuspensionTopSGWheel*.fbx /o:C:\Users\dangu\source\repos\Monorail\Models\Cubes\small /x:E:\BlenderAssets_SE\Materials 
+E:\BlenderAssets_SE\Materials\Armors.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Character.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\enenra.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Foliage.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Items.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\LODs.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Materials.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\PlayerItems.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Voxels.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: E:\BlenderAssets_SE\Materials
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 54 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel.fbx: WARNING: 
+    Material: PaintedMetal_Colorable is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel.fbx: WARNING: 
+    Material: PaintedMetal_Darker is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel.fbx: 
+    : Finished in 0.6s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_BS3
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Material: Construction is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 512 510 509)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 623 621 620)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 650 640 649)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 677 675 674)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 681 679 678)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 4171 4170 4169)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2797 4218 2796)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2747 4220 2746)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2686 4223 2685)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD1.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_LOD1
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 18 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD1.fbx: WARNING: 
+    Material: PaintedMetal_Colorable is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD1.fbx: WARNING: 
+    Material: PaintedMetal_Darker is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD1.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_BS2
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Material: Construction is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2475 2474 2473)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2552 2551 2550)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2693 2692 2691)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2178 3216 2177)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2140 3217 2139)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2092 3218 2091)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2220 3236 2219)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_BS1
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 1 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx: WARNING: 
+    Material: Construction is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 2375 2374 2373)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 3045 3044 3043)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 3181 3180 3179)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 3284 3283 3282)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3_LOD1.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_BS3_LOD1
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3_LOD1.fbx: WARNING: 
+    Material: Construction is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS3_LOD1.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD2.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_LOD2
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 7 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD2.fbx: WARNING: 
+    Material: PaintedMetal_Colorable is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD2.fbx: WARNING: 
+    Material: RubberWheels is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD2.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2_LOD1.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_BS2_LOD1
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2_LOD1.fbx: WARNING: 
+    Material: Construction is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2_LOD1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 877 1075 876)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2_LOD1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 1089 1088 1087)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS2_LOD1.fbx: 
+    : Finished in 0.7s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1_LOD1.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_BS1_LOD1
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1_LOD1.fbx: WARNING: 
+    Material: Construction is already defined in the processor. Not adding it again..
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1_LOD1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 1015 1014 1013)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1_LOD1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 1031 1030 1029)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1_LOD1.fbx: WARNING: 
+    Model contains degenerated triangle (indices 594 1053 584)
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_BS1_LOD1.fbx: 
+    : Finished in 0.8s
+: 
+    **FileName: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD3.fbx
+: 
+    **Filename (without extension): MonorailSuspensionTopSGWheel_LOD3
+: 
+    **Directory Name: C:\Users\dangu\source\repos\Monorail\Models\Cubes\small
+: 
+    **Number of characters to cull: 37
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\source\repos\Monorail\Models\Cubes\small\MonorailSuspensionTopSGWheel_LOD3.fbx: 
+    : Finished in 0.8s

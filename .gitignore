@@ -1,0 +1,5 @@
+assets/blend/**
+!assets/blend/MonorailStraight.blend
+!assets/blend/MonorailArc.blend
+!assets/blend/MonorailRamps.blend
+!assets/blend/MonorailFunctional.blend

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>MonorailSBend20x2</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailSBend20x2}</DisplayName>
+			<Description>{LOC:Description_MonorailSBend20x2}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailSBend20x2.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="20"/>
+			<Center x="1" y="0" z="9"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\MonorailSBend20x2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="400"/>
+				<Component Subtype="SteelPlate" Count="100"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailSBend20x2_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailSBend20x2_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailSBend20x2_BS3.mwm"/>
+			</BuildProgressModels>
+			<DeformationRatio>0.2</DeformationRatio>
+			<GeneralDamageMultiplier>0.05</GeneralDamageMultiplier>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86"/>
+				<MountPoint Side="Back" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86" Default="true"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="20.00"/>
+			</MountPoints>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>MonorailSBend20x2Inv</MirroringBlock>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

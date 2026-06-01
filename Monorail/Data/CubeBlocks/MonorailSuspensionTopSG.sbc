@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>MonorailSuspensionTopSG</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailSuspensionTop}</DisplayName>
+			<Description>{LOC:Description_MonorailSuspensionTop}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailSuspensionTopSG.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\MonorailSuspensionTopSG.mwm</Model>
+			<!-- Components of the 3x3 SG vanilla model -->
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="7" />
+				<Component Subtype="SmallTube" Count="2" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+				<MountPoint Side="Left" StartX="0.39" StartY="0.00" EndX="0.61" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.38" StartY="0.00" EndX="0.62" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>MonorailSuspensionTop</BlockPairName>
+			<UseModelIntersection>true</UseModelIntersection>
+			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+			<DeformationRatio>0.1</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<PrimarySound>BlockWheel1x1</PrimarySound>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.5</RequiredPowerInput>
+			<RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+			<MaxForceMagnitude>1E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<!-- High propulsion to make it useful. 60%of the 5m vanila model -->
+			<PropulsionForce>2880</PropulsionForce>
+			<RotorPart>MonorailSuspensionTopWheel</RotorPart>
+			<MinHeight>-0.33</MinHeight>
+			<MaxHeight>0.21</MaxHeight>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<AxleFriction>20000</AxleFriction>
+			<SteeringSpeed>0.005</SteeringSpeed>
+			<AirShockMinSpeed>10</AirShockMinSpeed>
+			<AirShockMaxSpeed>25</AirShockMaxSpeed>
+			<AirShockActivationDelay>60</AirShockActivationDelay>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\MonorailSuspensionTopSG_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\MonorailSuspensionTopSG_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\MonorailSuspensionTopSG_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

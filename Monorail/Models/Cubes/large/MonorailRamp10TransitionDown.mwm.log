@@ -1,0 +1,56 @@
+Running from: C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large 
+Command: E:\BlenderAssets_SE\Tools\MWMBuilder\MwmBuilder.exe /f /s:C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large /m:MonorailRamp10TransitionDown*.fbx /o:C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large /x:E:\BlenderAssets_SE\Materials 
+E:\BlenderAssets_SE\Materials\Armors.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Character.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\enenra.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Foliage.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Items.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\LODs.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Materials.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\PlayerItems.xml: 
+    Materialslib
+E:\BlenderAssets_SE\Materials\Voxels.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: E:\BlenderAssets_SE\Materials
+: 
+    **FileName: C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionDown.hkt.fbx
+: 
+    **Filename (without extension): MonorailRamp10TransitionDown.hkt
+: 
+    **Directory Name: C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large
+: 
+    **Number of characters to cull: 60
+: 
+    **Culled Path: Models\Cubes\large
+Meshes: 
+    Found 10 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionDown.hkt.fbx: 
+    : Finished in 0.2s
+: 
+    **FileName: C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionDown.fbx
+: 
+    **Filename (without extension): MonorailRamp10TransitionDown
+: 
+    **Directory Name: C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large
+: 
+    **Number of characters to cull: 60
+: 
+    **Culled Path: Models\Cubes\large
+Meshes: 
+    Found 2 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionDown.fbx: WARNING: 
+    Material: PaintedMetal_VeryDark is already defined in the processor. Not adding it again..
+C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionDown.fbx: 
+    : Finished in 0.2s

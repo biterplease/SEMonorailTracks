@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>MonorailArcBank16Transition</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailArcBank16Transition}</DisplayName>
+			<Description>{LOC:Description_MonorailArcBank16Transition}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailArcBank16Transition.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<IsAirTight>false</IsAirTight>
+			<Size x="1" y="1" z="10"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\MonorailArcBank16Transition.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="200"/>
+				<Component Subtype="SteelPlate" Count="50"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86" CouplingTag="MonorailBank16" AllowCouplingWithItself="true"/>
+				<MountPoint Side="Back" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86" Default="true"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="8.98" EndX="1.00" EndY="9.98"/>
+			</MountPoints>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>MonorailArcBank16TransitionInv</MirroringBlock>
+			<GeneralDamageMultiplier>0.05</GeneralDamageMultiplier>
+			<DeformationRatio>0.2</DeformationRatio>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailArcBank16Transition_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailArcBank16Transition_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailArcBank16Transition_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

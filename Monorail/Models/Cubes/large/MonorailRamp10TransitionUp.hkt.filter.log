@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\dangu\AppData\Local\Temp\space_engineers_eftd9w1c.hko -p C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionUp.hkt C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionUp.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Mon May 11 20:04:51 2026, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 10 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\dangu\AppData\Roaming\SpaceEngineers\Mods\Monorail\Models\Cubes\large\MonorailRamp10TransitionUp.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

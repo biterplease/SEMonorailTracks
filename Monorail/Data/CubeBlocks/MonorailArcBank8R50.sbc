@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>MonorailArcBank8R50</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailArcBank8R50}</DisplayName>
+			<Description>{LOC:Description_MonorailArcBank8R50}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailArcBank8R50.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="20" y="1" z="20"/>
+			<Center x="19" y="0" z="19"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\MonorailArcBank8R50.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="320"/>
+					<Component Subtype="SteelPlate" Count="80"/>
+				</Components>
+				<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86" Default="true" CouplingTag="MonorailBank8" AllowCouplingWithItself="true"/>
+				<MountPoint Side="Left" StartX="19.14" StartY="0.14" EndX="19.86" EndY="0.86" CouplingTag="MonorailBank8" AllowCouplingWithItself="true"/>
+				<MountPoint Side="Bottom" StartX="9.50" StartY="18.00" EndX="10.50" EndY="19.00"/>
+				<MountPoint Side="Bottom" StartX="18.00" StartY="9.50" EndX="19.00" EndY="10.50"/>
+				<MountPoint Side="Bottom" StartX="14.00" StartY="14.00" EndX="15.00" EndY="15.00"/>
+			</MountPoints>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+			<GeneralDamageMultiplier>0.05</GeneralDamageMultiplier>
+			<DeformationRatio>0.2</DeformationRatio>
+			<IsAirTight>false</IsAirTight>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailArcBank8R50_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailArcBank8R50_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailArcBank8R50_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

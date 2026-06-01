@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Model Name="MonorailSuspensionTopSGWheel">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Material Name="PaintedMetal_Colorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorable_add.dds</Parameter>
+	</Material>
+	<Material Name="PaintedMetal_Darker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalDarker_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+	</Material>
+	<MaterialRef Name="PanelingDarker"/>
+	<MaterialRef Name="Chrome"/>
+	<MaterialRef Name="PanelingColorable"/>
+	<MaterialRef Name="PaintedMetal_VeryDark"/>
+	<MaterialRef Name="SmallTiresMotion"/>
+	<MaterialRef Name="Decals"/>
+</Model>

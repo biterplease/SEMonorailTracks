@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailStraightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailStraight2_5m.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailStraight2_5m}</DisplayName>
+            <Description>{LOC:Description_MonorailStraight2_5m}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight2_5m" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight12_5m" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight25m" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight50m" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight100m" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x2Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x3Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank0R50" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank0R100" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailRampCenterLowGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailRampGroupCenterLow.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailRamp2_MonorailRampSCenterLow}</DisplayName>
+            <Description>{LOC:Description_MonorailRamp2_MonorailRampSCenterLow}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRampSCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionUpCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionDownCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline25mCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline50mCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionUpCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionDownCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline25mCenterLow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline50mCenterLow" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailRampCenterHighGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailRampGroupCenterHigh.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailRamp2_MonorailRampSCenterHigh}</DisplayName>
+            <Description>{LOC:Description_MonorailRamp2_MonorailRampSCenterHigh}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRampSCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionUpCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionDownCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline25mCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline50mCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionUpCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionDownCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline25mCenterHigh" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline50mCenterHigh" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailArcBank8Group" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailArcBank8Transition.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailArcBank8Transition}</DisplayName>
+            <Description>{LOC:Description_MonorailArcBank8Transition}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8Transition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8TransitionInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8R50" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8R100" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailArcBank16Group" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailArcBank16Transition.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailArcBank16Transition}</DisplayName>
+            <Description>{LOC:Description_MonorailArcBank16Transition}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16Transition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16TransitionInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16R50" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16R100" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailArcBank24Group" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailArcBank24Transition.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailArcBank24Transition}</DisplayName>
+            <Description>{LOC:Description_MonorailArcBank24Transition}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24Transition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24TransitionInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24R50" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24R100" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailSuspensionsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailSuspensionTopSG.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailSuspensionTop}</DisplayName>
+            <Description>{LOC:Description_MonorailSuspensionTop}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionTopSG" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionTopLG" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideLeftLG" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideRightLG" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideLeftSG" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideRightSG" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MonorailLogisticsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MonorailSuspensionTopSG.dds</Icon>
+            <DisplayName>{LOC:DisplayName_MonorailSuspensionTop}</DisplayName>
+            <Description>{LOC:Description_MonorailSuspensionTop}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="MonorailConnector" />
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Model Name="MonorailSuspensionTopSGWheel">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<MaterialRef Name="Construction"/>
+	<LOD Distance="25">
+		<Model>Models\Cubes\large\MonorailSuspensionTopSGWheel_BS1_LOD1</Model>
+	</LOD>
+</Model>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+			<Id>
+				<TypeId>ShipConnector</TypeId>
+				<SubtypeId>MonorailConnector</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailConnector}</DisplayName>
+			<Description>{LOC:Description_MonorailConnector}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailConnector.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="5"/>
+			<Center x="0" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\MonorailConnector.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="330" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="SteelPlate" Count="70" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Front" StartX="0.14" StartY="1.14" EndX="0.86" EndY="1.86"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.14" StartY="1.14" EndX="0.86" EndY="1.86"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailConnector_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailConnector_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailConnector_BS3.mwm"/>
+			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ActionSound>BlockEject</ActionSound>
+			<EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>125</PCU>
+			<IsAirTight>false</IsAirTight>
+			<AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+			<AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+			<ConnectDirection x="0.0" y="-1.0" z="0.0"/>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

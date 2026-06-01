@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>MonorailRamp2_10Incline25mCenterLow</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailRamp2_10Incline25mCenterLow}</DisplayName>
+			<Description>{LOC:Description_MonorailRamp2_10Incline25m}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailRamp2_10Incline25mCenterLow.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="10"/>
+			<Center x="0" y="0" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\MonorailRamp2_10Incline25mCenterLow.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="200"/>
+				<Component Subtype="Girder" Count="30"/>
+				<Component Subtype="Construction" Count="24"/>
+				<Component Subtype="SteelPlate" Count="50"/>
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Front" StartX="0.14" StartY="2.14" EndX="0.86" EndY="2.86"/>
+				<MountPoint Side="Back" StartX="0.14" StartY="0.20" EndX="0.86" EndY="0.92" Default="true"/>
+				<MountPoint Side="Left" StartX="4.50" StartY="0.00" EndX="5.50" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="4.50" StartY="0.00" EndX="5.50" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="9.00" StartY="0.00" EndX="10.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="4.50" EndX="1.00" EndY="5.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailRamp2_10Incline25mCenterLow_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailRamp2_10Incline25mCenterLow_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailRamp2_10Incline25mCenterLow_BS3.mwm"/>
+			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<IsAirTight>false</IsAirTight>
+			<DeformationRatio>0.2</DeformationRatio>
+			<GeneralDamageMultiplier>0.05</GeneralDamageMultiplier>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

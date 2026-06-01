@@ -1,0 +1,309 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<CubeBlocks>
+			<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+				<Id>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>MonorailTurnout</SubtypeId>
+				</Id>
+				<DisplayName>{LOC:DisplayName_MonorailTurnout}</DisplayName>
+				<Description>{LOC:Description_MonorailTurnout}</Description>
+				<Icon>Textures\GUI\Icons\Cubes\MonorailTurnout.dds</Icon>
+				<CubeSize>Large</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="5" y="2" z="20"/>
+				<Center x="2" y="1" z="9"/>
+				<ModelOffset x="0" y="0" z="0"/>
+				<Model>Models\Cubes\large\MonorailTurnout.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="125" />
+					<Component Subtype="Construction" Count="15" />
+					<Component Subtype="SmallTube" Count="40" />
+					<Component Subtype="Motor" Count="16" />
+					<Component Subtype="Computer" Count="2" />
+					<Component Subtype="Construction" Count="25" />
+					<Component Subtype="SteelPlate" Count="50" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<CriticalComponent Subtype="SteelPlate" Index="0"/>
+				<MountPoints>
+					<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" PressurizedWhenOpen="true"/>
+					<MountPoint Side="Front" StartX="0.14" StartY="1.14" EndX="0.86" EndY="1.86"/>
+					<MountPoint Side="Front" StartX="4.14" StartY="1.14" EndX="4.86" EndY="1.86"/>
+					<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" PressurizedWhenOpen="true"/>
+					<MountPoint Side="Back" StartX="2.14" StartY="1.14" EndX="2.86" EndY="1.86"/>
+					<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20.00" EndY="1.00" PressurizedWhenOpen="true"/>
+					<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20.00" EndY="1.00" PressurizedWhenOpen="true"/>
+					<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="20.00" PressurizedWhenOpen="true"/>
+				</MountPoints>
+				<BlockPairName>MonorailTurnout</BlockPairName>
+				<MirroringY>Z</MirroringY>
+				<MirroringZ>Y</MirroringZ>
+				<PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+				<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+				<PhysicalMaterial>Metal</PhysicalMaterial>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<ResourceSinkGroup>Doors</ResourceSinkGroup>
+				<PowerConsumptionIdle>0.000000001</PowerConsumptionIdle>
+				<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+				<DamageEffectId>214</DamageEffectId>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>			<!-- this one is "delicate" makes sense it would take more damage -->
+				<DeformationRatio>0.2</DeformationRatio>
+				<Subparts>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart0</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart1</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart2</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart3</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart4</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart5</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart6</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart7</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart8</Name>
+					</SubpartDefinition>
+					<SubpartDefinition>
+						<Name>MonorailTurnoutSubpart9</Name>
+					</SubpartDefinition>
+				</Subparts>
+				<OpeningSequence>
+					<Opening>
+						<IDs>0</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.3</MaxOpen>
+						<Speed>4</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+											<OpenSound>BlockDoorHangar</OpenSound>
+					<CloseSound>BlockDoorHangar</CloseSound>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>0</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.01795</MaxOpen>
+						<Speed>4</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						v
+						<PivotPosition x="-0.180491" y="0.0" z="20.180241" />
+					</Opening>
+					<Opening>
+						<IDs>1</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>6.8</MaxOpen>
+						<Speed>4.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>1</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.2</MaxOpen>
+						<Speed>4.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-0.551265" y="0.0" z="15.671767" />
+					</Opening>
+					<Opening>
+						<IDs>2</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>8.5</MaxOpen>
+						<Speed>5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>2</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.2</MaxOpen>
+						<Speed>5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-1.025529" y="0.0" z="11.174760" />
+					</Opening>
+					<Opening>
+						<IDs>3</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>9.9</MaxOpen>
+						<Speed>5.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>3</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.2</MaxOpen>
+						<Speed>5.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-1.591754" y="0.0" z="6.686942" />
+					</Opening>
+					<Opening>
+						<IDs>4</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>11.0</MaxOpen>
+						<Speed>6</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>4</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.2</MaxOpen>
+						<Speed>6</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-2.211533" y="0.0" z="2.206459" />
+					</Opening>
+					<Opening>
+						<IDs>4</IDs>
+						<Move>Slide</Move>
+						<SlideDirection x="0.996192" y="0.000000" z="0.087186" />
+						<MaxOpen>0.035049</MaxOpen>
+						<Speed>6</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+					</Opening>
+					<Opening>
+						<IDs>5</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>11.7</MaxOpen>
+						<Speed>6.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>5</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>3.99954</MaxOpen>
+						<Speed>6.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-2.796267" y="0.0" z="-2.276566" />
+					</Opening>
+					<Opening>
+						<IDs>6</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>12.2</MaxOpen>
+						<Speed>7</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>6</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>2.69484</MaxOpen>
+						<Speed>7</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-3.391512" y="0.0" z="-6.759474" />
+					</Opening>
+					<Opening>
+						<IDs>7</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>12.4766</MaxOpen>
+						<Speed>7.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>7</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>1.11119</MaxOpen>
+						<Speed>7.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-3.968788" y="0.0" z="-11.245237" />
+					</Opening>
+					<Opening>
+						<IDs>8</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>12.3964</MaxOpen>
+						<Speed>8</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>8</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>1.18393</MaxOpen>
+						<InvertRotation>true</InvertRotation>
+						<Speed>8</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-4.412185" y="0.0" z="-15.745805" />
+					</Opening>
+					<Opening>
+						<IDs>9</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>12.1501</MaxOpen>
+						<Speed>8.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="0.0" y="0.0" z="25.0" />
+					</Opening>
+					<Opening>
+						<IDs>9</IDs>
+						<Move>Rotate</Move>
+						<RotationAxis>Y</RotationAxis>
+						<MaxOpen>4.14605</MaxOpen>
+						<InvertRotation>true</InvertRotation>
+						<Speed>8.5</Speed>
+						<OpenDelay>0</OpenDelay>
+						<CloseDelay>0</CloseDelay>
+						<PivotPosition x="-4.810857" y="0.0" z="-20.249924" />
+					</Opening>
+				</OpeningSequence>
+				<BuildProgressModels>
+					<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\MonorailTurnout_BS1.mwm"/>
+					<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\MonorailTurnout_BS2.mwm"/>
+					<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\MonorailTurnout_BS3.mwm"/>
+				</BuildProgressModels>
+			</Definition>
+		</CubeBlocks>
+	</Definitions>

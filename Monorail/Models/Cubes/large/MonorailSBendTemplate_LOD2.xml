@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<Model Name="MonorailSBendTemplate">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<MaterialRef Name="PaintedMetal_VeryDark"/>
+	<Material Name="Metal_Dull.003">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Aluminium_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\AluminiumDull_ng.dds</Parameter>
+	</Material>
+	<Material Name="Atlas2.003">
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas2_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas2_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="TextAtlasDark.003">
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\TextAtlasDark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\TextAtlas_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\TextAtlas_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\TextAtlas_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PaintedMetal_Colorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorable_add.dds</Parameter>
+	</Material>
+</Model>

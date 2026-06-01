@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>MonorailSuspensionSideSGWheel</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_MonorailSuspensionSideWheel}</DisplayName>
+			<Description>{LOC:Description_MonorailSuspensionSideWheel}</Description>
+			<Icon>Textures\GUI\Icons\MonorailSuspensionSideSGWheel.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\MonorailSuspensionSideSGWheel.mwm</Model>
+            <!-- Components of the 3x3 LG vanilla model -->
+           <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="LargeTube" Count="3" />
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="LargeTube" Index="0" />
+			<BlockPairName>MonorailSuspensionSideWheel</BlockPairName>
+			<UseModelIntersection>true</UseModelIntersection>
+			<PhysicalMaterial>Wheel</PhysicalMaterial>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<MountPoints>
+				<MountPoint Enabled="false" />
+			</MountPoints>
+			<WheelPlacementCollider>
+				<ColliderDiameter>1.0</ColliderDiameter>
+				<ColliderHeight>1.0</ColliderHeight>
+				<ColliderOffset>0.08</ColliderOffset>
+			</WheelPlacementCollider>
+			<SingleBlockGridVoxelPlacement>
+				<PlacementMode>Volumetric</PlacementMode>
+				<MaxAllowed>0.25</MaxAllowed>
+				<MinAllowed>0.0</MinAllowed>
+			</SingleBlockGridVoxelPlacement>
+			<UsesDeformation>false</UsesDeformation>
+			<DeformationRatio>0.3</DeformationRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringX>X</MirroringX>
+			<MirroringBlock>MonorailSuspensionSideSGWheelMirrored</MirroringBlock>
+			<EdgeType>Light</EdgeType>
+			<Public>false</Public>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+			<DestroySound>PoofExplosionCat2</DestroySound>
+			<PCU>25</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
