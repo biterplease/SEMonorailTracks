@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>{LOC:DisplayName_MonorailSuspensionTopWheel}</DisplayName>
 			<Description>{LOC:Description_MonorailSuspensionTopWheel}</Description>
-			<Icon>Textures\GUI\Icons\MonorailSuspensionTopSGWheel.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailSuspensionTopSGWheel.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>

@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>{LOC:DisplayName_MonorailSuspensionSideRight}</DisplayName>
 			<Description>{LOC:Description_MonorailSuspensionSideRight}</Description>
-			<Icon>Textures\GUI\Icons\MonorailSuspensionSideRightLG.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\MonorailSuspensionSideRightLG.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
