@@ -52,6 +52,8 @@
 			<AutoUnlockTime_Min>0</AutoUnlockTime_Min>
 			<AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
 			<ConnectDirection x="0.0" y="-1.0" z="0.0"/>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>			<!-- this one is "delicate" makes sense it would take more damage -->
+			<DeformationRatio>0.2</DeformationRatio>
 		</Definition>
 	</CubeBlocks>
 </Definitions>

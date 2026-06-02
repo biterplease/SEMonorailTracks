@@ -61,6 +61,7 @@
                 <string>MotorSuspension/MonorailSuspensionSideRightSG</string>
                 <string>ShipConnector/MonorailConnector</string>
                 <string>AdvancedDoor/MonorailTurnout</string>
+                <string>MergeBlock/MonorailMergeBlock</string>
             </ItemIds>
         </Category>
     </CategoryClasses>

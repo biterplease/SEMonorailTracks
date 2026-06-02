@@ -1,3 +1,5 @@
 ﻿v1.0.2
-
 remove obsolete blocks, add research groups
+
+v1.1.0
+add localization texts, fix turnout category and block variant group
