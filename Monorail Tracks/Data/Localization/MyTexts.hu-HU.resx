@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+	<!-- BEGIN Monorail mod -->
+	<data name="DisplayName_ModCategory" xml:space="preserve">
+		<value>Egysínű vasút</value>
+	</data>
+
+	<!-- BEGIN Monorail Straight and S-Bends -->
+	<data name="DisplayName_MonorailStraight2_5m" xml:space="preserve">
+		<value>Egysínű vasút Egyenes 2,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight2_5m" xml:space="preserve">
+		<value>Egyenes egysínű vasútpálya-szakasz, 2,5 méter (1 blokk).</value>
+	</data>
+  	<data name="DisplayName_MonorailStraight12_5m" xml:space="preserve">
+		<value>Egysínű vasút Egyenes 12,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight12_5m" xml:space="preserve">
+		<value>Egyenes egysínű vasútpálya-szakasz, 12,5 méter (5 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight25m" xml:space="preserve">
+		<value>Egysínű vasút Egyenes 25 m</value>
+	</data>
+	<data name="Description_MonorailStraight25m" xml:space="preserve">
+		<value>Egyenes egysínű vasútpálya-szakasz, 25 méter (10 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight50m" xml:space="preserve">
+		<value>Egysínű vasút Egyenes 50 m</value>
+	</data>
+	<data name="Description_MonorailStraight50m" xml:space="preserve">
+		<value>Egyenes egysínű vasútpálya-szakasz, 50 méter (20 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight100m" xml:space="preserve">
+		<value>Egysínű vasút Egyenes 100 m</value>
+	</data>
+	<data name="Description_MonorailStraight100m" xml:space="preserve">
+		<value>Egyenes egysínű vasútpálya-szakasz, 100 méter (40 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2" xml:space="preserve">
+		<value>Egysínű vasút S-Kanyar 20x2</value>
+	</data>
+	<data name="Description_MonorailSBend20x2" xml:space="preserve">
+		<value>Sík S-alakú egysínű vasút szakasz, 2,5 m (1 blokk) oldaleltolással.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Egysínű vasút S-Kanyar 20x2 Tükrözött</value>
+	</data>
+	<data name="Description_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Sík S-alakú egysínű vasút szakasz, 2,5 m (1 blokk) oldaleltolással.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3" xml:space="preserve">
+		<value>Egysínű vasút S-Kanyar 20x3</value>
+	</data>
+	<data name="Description_MonorailSBend20x3" xml:space="preserve">
+		<value>Sík S-alakú egysínű vasút szakasz, 5,0 m (2 blokk) oldaleltolással.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Egysínű vasút S-Kanyar 20x3 Tükrözött</value>
+	</data>
+	<data name="Description_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Sík S-alakú egysínű vasút szakasz, 5,0 m (2 blokk) oldaleltolással.</value>
+	</data>
+	<!-- END Monorail Straight and S-Bends -->
+
+	<!-- BEGIN Monorail Ramps -->
+	<data name="DisplayName_MonorailRampSCenterLow" xml:space="preserve">
+		<value>Rámpa S (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRampSCenterHigh" xml:space="preserve">
+		<value>Rámpa S (Felső)</value>
+	</data>
+	<data name="Description_MonorailRampS" xml:space="preserve">
+		<value>S-alakú pályaszakasz 2,5 m (1 blokk) emelkedéssel.</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterLow" xml:space="preserve">
+		<value>Rámpa 1-10-Emelkedő 50 m (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Rámpa 1-10-Emelkedő 50 m (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline50m" xml:space="preserve">
+		<value>Dőlt egysínű vasút szakasz, 1/10 emelkedő (~5,7°), 50 méter (20 blokk).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterLow" xml:space="preserve">
+		<value>Rámpa 1-10-Emelkedő 25 m (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Rámpa 1-10-Emelkedő 25 m (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline25m" xml:space="preserve">
+		<value>Dőlt egysínű vasút szakasz, 1/10 emelkedő (~5,7°), 25 méter (10 blokk).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterLow" xml:space="preserve">
+		<value>Rámpa 2-10-Emelkedő 25 m (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Rámpa 2-10-Emelkedő 25 m (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline25m" xml:space="preserve">
+		<value>Dőlt egysínű vasút szakasz, 2/10 emelkedő (~11,4°), 25 méter (10 blokk).</value>
+	</data>
+
+	
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterLow" xml:space="preserve">
+		<value>Rámpa 2-10-Emelkedő 50 m (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Rámpa 2-10-Emelkedő 50 m (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline50m" xml:space="preserve">
+		<value>Dőlt egysínű vasút szakasz, 2/10 emelkedő (~11,4°), 50 méter (20 blokk).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Rámpa 2-10 Átmenet Le (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Rámpa 2-10 Átmenet Le (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionDown" xml:space="preserve">
+		<value>Lefelé átmenet 2/10 emelkedőjű (~11,3°) pályaszakaszra.</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Rámpa 1-10 Átmenet Fel (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Rámpa 1-10 Átmenet Fel (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionUp" xml:space="preserve">
+		<value>Felfelé átmenet 1/10 emelkedőjű (~5,7°) pályaszakaszra.</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Rámpa 1-10 Átmenet Le (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Rámpa 1-10 Átmenet Le (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionDown" xml:space="preserve">
+		<value>Lefelé átmenet 1/10 emelkedőjű (~5,7°) pályaszakaszra.</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp10S" xml:space="preserve">
+		<value>Rámpa 10 S</value>
+	</data>
+	<data name="Description_MonorailRamp10S" xml:space="preserve">
+		<value>S-alakú egysínű vasút szakasz 1/10 lejtőváltással (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Rámpa 10-Emelkedő 25 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Dőlt egysínű vasút szakasz, 1/10 emelkedő (~5,7°), 25 méter (10 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Rámpa 10-Emelkedő 50 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Dőlt egysínű vasút szakasz, 1/10 emelkedő (~5,7°), 50 méter (20 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Rámpa 10 Átmenet Fel</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Felfelé átmenet 1/10 emelkedőjű (~5,7°) pályaszakaszra.</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Rámpa 10 Átmenet Le</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Lefelé átmenet 1/10 emelkedőjű (~5,7°) pályaszakaszra.</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Rámpa 2-10 Átmenet Fel (Alsó)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Rámpa 2-10 Átmenet Fel (Felső)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionUp" xml:space="preserve">
+		<value>Felfelé átmenet 2/10 emelkedőjű (~11,3°) pályaszakaszra.</value>
+	</data>
+	<!-- END Monorail Ramps -->
+
+
+	<!--BEGIN Monorail Arcs and banked arc transitions-->
+	<data name="DisplayName_MonorailArcBank0R50" xml:space="preserve">
+		<value>Ív Bank-0-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank0R50" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 0° dőlésszög, 50 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank0R100" xml:space="preserve">
+		<value>Ív Bank-0-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank0R100" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 0° dőlésszög, 100 m sugár.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank8R50" xml:space="preserve">
+		<value>Ív Bank-8-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank8R50" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 8° dőlésszög, 50 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8R100" xml:space="preserve">
+		<value>Ív Bank-8-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank8R100" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 8° dőlésszög, 100 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Ív Átmenet Bank-8</value>
+	</data>
+	<data name="Description_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Átmenet 8° dőlésszögű pályára.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Ív Átmenet Bank-8 Tükrözött</value>
+	</data>
+	<data name="Description_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Átmenet 8° dőlésszögű pályára, tükrözve.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank16R50" xml:space="preserve">
+		<value>Ív Bank-16-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank16R50" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 16° dőlésszög, 50 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16R100" xml:space="preserve">
+		<value>Ív Bank-16-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank16R100" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 16° dőlésszög, 100 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Ív Átmenet Bank-16</value>
+	</data>
+	<data name="Description_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Átmenet 16° dőlésszögű pályára.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Ív Átmenet Bank-16 Tükrözött</value>
+	</data>
+	<data name="Description_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Átmenet 16° dőlésszögű pályára.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank24R50" xml:space="preserve">
+		<value>Ív Bank-24-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank24R50" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 24° dőlésszög, 50 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24R100" xml:space="preserve">
+		<value>Ív Bank-24-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank24R100" xml:space="preserve">
+		<value>Egysínű vasút ív 90°, 24° dőlésszög, 100 m sugár.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Ív Átmenet Bank-24</value>
+	</data>
+	<data name="Description_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Átmenet 24° dőlésszögű pályára.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Ív Átmenet Bank-24 Tükrözött</value>
+	</data>
+	<data name="Description_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Átmenet 24° dőlésszögű pályára.</value>
+	</data>
+	<data name="DisplayName_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Ív Helix 10 Bank-24 R50</value>
+	</data>
+	<data name="Description_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Spirális egysínű vasút ív, 10° emelkedés szegmensenként, 24° dőlésszög, 50 m sugár.</value>
+	</data>
+	<!--END Monorail Arcs and banked arc transitions-->
+
+	<!--BEGIN Monorail Logistics-->
+	<data name="DisplayName_MonorailConnector" xml:space="preserve">
+		<value>Egysínű Vasút Állomás</value>
+	</data>
+	<data name="Description_MonorailConnector" xml:space="preserve">
+		<value>12,5 m-es egysínű vasút szakasz összekötővel és szállítószalagokkal. A csatlakozási pont magas, hogy a vonatok csatlakozni tudjanak a kerekek magassági eltolódásának megváltoztatása nélkül.</value>
+	</data>
+	<data name="DisplayName_MonorailTurnout" xml:space="preserve">
+		<value>Egysínű Vasút Váltó</value>
+	</data>
+	<data name="Description_MonorailTurnout" xml:space="preserve">
+		<value>Átkapcsolja az egysínű vasút forgalmát két pályaút között.</value>
+	</data>
+	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Acél Rácsos Doboz Egysínű Vasúthoz</value>
+	</data>
+	<data name="Description_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Szerkezeti acél rácsdoboz egysínű vasút tartójaként.</value>
+	</data>
+
+	<data name="DisplayName_MonorailSuspensionTop" xml:space="preserve">
+		<value>Felső Kerék-felfüggesztés Egysínű Vasúthoz</value>
+	</data>
+	<data name="Description_MonorailSuspensionTop" xml:space="preserve">
+		<value>Lefelé néző felfüggesztés egysínű vasúthoz.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Felső Kerék Egysínű Vasút Felfüggesztéshez</value>
+	</data>
+	<data name="Description_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Kerék a felső egysínű vasút felfüggesztéshez.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Oldalsó Kerék-felfüggesztés Egysínű Vasúthoz (bal)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Oldalsó felfüggesztés egysínű vasúthoz (bal).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Oldalsó Kerék Egysínű Vasút Felfüggesztéshez</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Kerék az oldalsó egysínű vasút felfüggesztésekhez.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Oldalsó Kerék-felfüggesztés Egysínű Vasúthoz (jobb)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Oldalsó felfüggesztés egysínű vasúthoz (jobb).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Oldalsó Kerék Egysínű Vasút Felfüggesztéshez (jobb)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Kerék az oldalsó egysínű vasút felfüggesztésekhez (jobboldali).</value>
+	</data>
+	<!-- END Monorail mod -->
+</root>

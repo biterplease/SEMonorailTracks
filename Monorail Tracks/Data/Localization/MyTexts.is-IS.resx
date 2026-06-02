@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+	<!-- BEGIN Monorail mod -->
+	<data name="DisplayName_ModCategory" xml:space="preserve">
+		<value>Einspors</value>
+	</data>
+
+	<!-- BEGIN Monorail Straight and S-Bends -->
+	<data name="DisplayName_MonorailStraight2_5m" xml:space="preserve">
+		<value>Einspors Bein 2,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight2_5m" xml:space="preserve">
+		<value>Bein einsporsbraut hluti, 2,5 metrar (1 blokk).</value>
+	</data>
+  	<data name="DisplayName_MonorailStraight12_5m" xml:space="preserve">
+		<value>Einspors Bein 12,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight12_5m" xml:space="preserve">
+		<value>Bein einsporsbraut hluti, 12,5 metrar (5 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight25m" xml:space="preserve">
+		<value>Einspors Bein 25 m</value>
+	</data>
+	<data name="Description_MonorailStraight25m" xml:space="preserve">
+		<value>Bein einsporsbraut hluti, 25 metrar (10 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight50m" xml:space="preserve">
+		<value>Einspors Bein 50 m</value>
+	</data>
+	<data name="Description_MonorailStraight50m" xml:space="preserve">
+		<value>Bein einsporsbraut hluti, 50 metrar (20 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight100m" xml:space="preserve">
+		<value>Einspors Bein 100 m</value>
+	</data>
+	<data name="Description_MonorailStraight100m" xml:space="preserve">
+		<value>Bein einsporsbraut hluti, 100 metrar (40 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2" xml:space="preserve">
+		<value>Einspors S-Beygja 20x2</value>
+	</data>
+	<data name="Description_MonorailSBend20x2" xml:space="preserve">
+		<value>Flatur S-laga einspors hluti, hliðarbil 2,5 m (1 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Einspors S-Beygja 20x2 Speglað</value>
+	</data>
+	<data name="Description_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Flatur S-laga einspors hluti, hliðarbil 2,5 m (1 blokk).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3" xml:space="preserve">
+		<value>Einspors S-Beygja 20x3</value>
+	</data>
+	<data name="Description_MonorailSBend20x3" xml:space="preserve">
+		<value>Flatur S-laga einspors hluti, hliðarbil 5,0 m (2 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Einspors S-Beygja 20x3 Speglað</value>
+	</data>
+	<data name="Description_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Flatur S-laga einspors hluti, hliðarbil 5,0 m (2 blokkir).</value>
+	</data>
+	<!-- END Monorail Straight and S-Bends -->
+
+	<!-- BEGIN Monorail Ramps -->
+	<data name="DisplayName_MonorailRampSCenterLow" xml:space="preserve">
+		<value>Rampi S (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRampSCenterHigh" xml:space="preserve">
+		<value>Rampi S (Hár)</value>
+	</data>
+	<data name="Description_MonorailRampS" xml:space="preserve">
+		<value>S-laga hluti með 2,5 m (1 blokk) hækkun.</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterLow" xml:space="preserve">
+		<value>Rampi 1-10-Halli 50 m (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Rampi 1-10-Halli 50 m (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline50m" xml:space="preserve">
+		<value>Hallandi einsporshluti, halli 1/10 (~5,7°), 50 metrar (20 blokkir).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterLow" xml:space="preserve">
+		<value>Rampi 1-10-Halli 25 m (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Rampi 1-10-Halli 25 m (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline25m" xml:space="preserve">
+		<value>Hallandi einsporshluti, halli 1/10 (~5,7°), 25 metrar (10 blokkir).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterLow" xml:space="preserve">
+		<value>Rampi 2-10-Halli 25 m (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Rampi 2-10-Halli 25 m (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline25m" xml:space="preserve">
+		<value>Hallandi einsporshluti, halli 2/10 (~11,4°), 25 metrar (10 blokkir).</value>
+	</data>
+
+	
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterLow" xml:space="preserve">
+		<value>Rampi 2-10-Halli 50 m (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Rampi 2-10-Halli 50 m (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline50m" xml:space="preserve">
+		<value>Hallandi einsporshluti, halli 2/10 (~11,4°), 50 metrar (20 blokkir).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Rampi 2-10 Breyting Niður (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Rampi 2-10 Breyting Niður (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionDown" xml:space="preserve">
+		<value>Niðurbreyting á hallandi hluta 2/10 (~11,3°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Rampi 1-10 Breyting Upp (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Rampi 1-10 Breyting Upp (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionUp" xml:space="preserve">
+		<value>Uppbreyting á hallandi hluta 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Rampi 1-10 Breyting Niður (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Rampi 1-10 Breyting Niður (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionDown" xml:space="preserve">
+		<value>Niðurbreyting á hallandi hluta 1/10 (~5,7°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp10S" xml:space="preserve">
+		<value>Rampi 10 S</value>
+	</data>
+	<data name="Description_MonorailRamp10S" xml:space="preserve">
+		<value>S-laga einsporshluti með hallasbreytingu 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Rampi 10-Halli 25 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Hallandi einsporshluti, halli 1/10 (~5,7°), 25 metrar (10 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Rampi 10-Halli 50 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Hallandi einsporshluti, halli 1/10 (~5,7°), 50 metrar (20 blokkir).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Rampi 10 Breyting Upp</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Uppbreyting á hallandi hluta 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Rampi 10 Breyting Niður</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Niðurbreyting á hallandi hluta 1/10 (~5,7°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Rampi 2-10 Breyting Upp (Lágur)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Rampi 2-10 Breyting Upp (Hár)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionUp" xml:space="preserve">
+		<value>Uppbreyting á hallandi hluta 2/10 (~11,3°).</value>
+	</data>
+	<!-- END Monorail Ramps -->
+
+
+	<!--BEGIN Monorail Arcs and banked arc transitions-->
+	<data name="DisplayName_MonorailArcBank0R50" xml:space="preserve">
+		<value>Bogi Bank-0-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank0R50" xml:space="preserve">
+		<value>Einspors bogi 90° með 0° halla, radíus 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank0R100" xml:space="preserve">
+		<value>Bogi Bank-0-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank0R100" xml:space="preserve">
+		<value>Einspors bogi 90° með 0° halla, radíus 100 m.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank8R50" xml:space="preserve">
+		<value>Bogi Bank-8-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank8R50" xml:space="preserve">
+		<value>Einspors bogi 90° með 8° halla, radíus 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8R100" xml:space="preserve">
+		<value>Bogi Bank-8-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank8R100" xml:space="preserve">
+		<value>Einspors bogi 90° með 8° halla, radíus 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Bogi Breyting Bank-8</value>
+	</data>
+	<data name="Description_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Breyting yfir á braut með 8° halla.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Bogi Breyting Bank-8 Speglað</value>
+	</data>
+	<data name="Description_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Breyting yfir á braut með 8° halla, speglað.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank16R50" xml:space="preserve">
+		<value>Bogi Bank-16-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank16R50" xml:space="preserve">
+		<value>Einspors bogi 90° með 16° halla, radíus 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16R100" xml:space="preserve">
+		<value>Bogi Bank-16-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank16R100" xml:space="preserve">
+		<value>Einspors bogi 90° með 16° halla, radíus 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Bogi Breyting Bank-16</value>
+	</data>
+	<data name="Description_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Breyting yfir á braut með 16° halla.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Bogi Breyting Bank-16 Speglað</value>
+	</data>
+	<data name="Description_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Breyting yfir á braut með 16° halla.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank24R50" xml:space="preserve">
+		<value>Bogi Bank-24-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank24R50" xml:space="preserve">
+		<value>Einspors bogi 90° með 24° halla, radíus 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24R100" xml:space="preserve">
+		<value>Bogi Bank-24-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank24R100" xml:space="preserve">
+		<value>Einspors bogi 90° með 24° halla, radíus 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Bogi Breyting Bank-24</value>
+	</data>
+	<data name="Description_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Breyting yfir á braut með 24° halla.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Bogi Breyting Bank-24 Speglað</value>
+	</data>
+	<data name="Description_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Breyting yfir á braut með 24° halla.</value>
+	</data>
+	<data name="DisplayName_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Bogi Helix 10 Bank-24 R50</value>
+	</data>
+	<data name="Description_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Spírallaginn einspors bogi, 10° hækkun á hluta, 24° halli, radíus 50 m.</value>
+	</data>
+	<!--END Monorail Arcs and banked arc transitions-->
+
+	<!--BEGIN Monorail Logistics-->
+	<data name="DisplayName_MonorailConnector" xml:space="preserve">
+		<value>Einspors Stöð</value>
+	</data>
+	<data name="Description_MonorailConnector" xml:space="preserve">
+		<value>12,5 m einsporsbraut hluti með tengil og flutningaband. Tengipunkturinn er hár til að lestir geti tengst án þess að breyta hæðarjöfnun hjólanna.</value>
+	</data>
+	<data name="DisplayName_MonorailTurnout" xml:space="preserve">
+		<value>Einspors Sporbreytir</value>
+	</data>
+	<data name="Description_MonorailTurnout" xml:space="preserve">
+		<value>Stýrir einsporsumferð á milli tveggja sporbrauta.</value>
+	</data>
+	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Stálgrindarkassi fyrir Einspors</value>
+	</data>
+	<data name="Description_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Burðarvirkt stálgrindarkassi sem stuðningur fyrir einspors.</value>
+	</data>
+
+	<data name="DisplayName_MonorailSuspensionTop" xml:space="preserve">
+		<value>Einspors Efri Hjólasveiflujöfnun</value>
+	</data>
+	<data name="Description_MonorailSuspensionTop" xml:space="preserve">
+		<value>Niðursnúin sveiflujöfnun fyrir einspors.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Einspors Efra Sveiflujöfnunarhjól</value>
+	</data>
+	<data name="Description_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Hjól fyrir efri einspors sveiflujöfnun.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Einspors Hliðarhjólasveiflujöfnun (vinstri)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Hliðarsveiflujöfnun fyrir einspors (vinstri).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Einspors Hliðarsveiflujöfnunarhjól</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Hjól fyrir hliðarsveiflujöfnun einspors.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Einspors Hliðarhjólasveiflujöfnun (hægri)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Hliðarsveiflujöfnun fyrir einspors (hægri).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Einspors Hliðarsveiflujöfnunarhjól (hægri)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Hjól fyrir hliðarsveiflujöfnun einspors (hægri hlið).</value>
+	</data>
+	<!-- END Monorail mod -->
+</root>

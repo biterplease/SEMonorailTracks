@@ -60,7 +60,7 @@
                 <string>MotorSuspension/MonorailSuspensionSideLeftSG</string>
                 <string>MotorSuspension/MonorailSuspensionSideRightSG</string>
                 <string>ShipConnector/MonorailConnector</string>
-                <string>AdvancedConnector/MonorailTurnout</string>
+                <string>AdvancedDoor/MonorailTurnout</string>
             </ItemIds>
         </Category>
     </CategoryClasses>
