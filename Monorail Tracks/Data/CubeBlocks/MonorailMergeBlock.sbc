@@ -14,15 +14,15 @@
 			<Size x="1" y="1" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\MonorailMergeBlock.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="105" />
-                <Component Subtype="Construction" Count="15" />
-                <Component Subtype="Motor" Count="2" />
-                <Component Subtype="LargeTube" Count="6" />
-                <Component Subtype="Computer" Count="2" />
-                <Component Subtype="SteelPlate" Count="32" />
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+			<Components>
+				<Component Subtype="SteelPlate" Count="105" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="Motor" Count="2" />
+				<Component Subtype="LargeTube" Count="6" />
+				<Component Subtype="Computer" Count="2" />
+				<Component Subtype="SteelPlate" Count="32" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.21" StartY="0.21" EndX="0.79" EndY="0.79" Default="true"/>
 				<MountPoint Side="Back" StartX="0.14" StartY="0.14" EndX="0.86" EndY="0.86"/>
@@ -36,17 +36,17 @@
 			<BlockPairName>MonorailMergeBlock</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-            <Public>true</Public>
-            <BuildTimeSeconds>20</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<Public>true</Public>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>			<!-- this one is "delicate" makes sense it would take more damage -->
 			<DeformationRatio>0.2</DeformationRatio>
-            <PCU>100</PCU>
-            <IsAirTight>false</IsAirTight>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
 		</Definition>
 	</CubeBlocks>
 </Definitions>
