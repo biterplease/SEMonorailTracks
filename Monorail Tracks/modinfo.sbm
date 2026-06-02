@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SteamIDOwner>76561198031538501</SteamIDOwner>
-  <WorkshopId>0</WorkshopId>
-  <Name>Monorail</Name>
+  <WorkshopId>3736894294</WorkshopId>
+  <Name>Monorail Tracks</Name>
   <Authors>
     <Author>biter_please</Author>
   </Authors>
-  <Description>Monorail blocks.</Description>
-  <Version>0</Version>
+  <Description>Monorail track blocks.</Description>
+  <Version>0.1.0</Version>
   <Tags>
     <Tag>block</Tag>
     <Tag>Monorail</Tag>
