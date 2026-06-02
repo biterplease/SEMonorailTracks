@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ResearchBlocks>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionTopLG" />
+            <UnlockedByGroups>
+                <GroupSubtype>14</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionTopSG" />
+            <UnlockedByGroups>
+                <GroupSubtype>14</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideLeftLG" />
+            <UnlockedByGroups>
+                <GroupSubtype>14</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideRightLG" />
+            <UnlockedByGroups>
+                <GroupSubtype>14</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideLeftSG" />
+            <UnlockedByGroups>
+                <GroupSubtype>14</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideRightSG" />
+            <UnlockedByGroups>
+                <GroupSubtype>14</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank0R100" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank0R50" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16R100" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16R50" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16Transition" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank16TransitionInv" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24R100" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24R50" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24Transition" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank24TransitionInv" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8R100" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8R50" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8Transition" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailArcBank8TransitionInv" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_ShipConnector" Subtype="MonorailConnector" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp10Incline25m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp10Incline50m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp10S" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp10TransitionDown" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp10TransitionUp" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline25mCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline25mCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline50mCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10Incline50mCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionDownCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionDownCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionUpCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp1_10TransitionUpCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline25mCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline50mCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10Incline50mCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionDownCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionDownCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionUpCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRamp2_10TransitionUpCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRampSCenterHigh" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailRampSCenterLow" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x2" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x2Inv" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x3" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSBend20x3Inv" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailSteelLatticeBox" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight100m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight12_5m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight25m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight2_5m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CubeBlock" Subtype="MonorailStraight50m" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Wheel" Subtype="MonorailSuspensionSideLGWheel" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Wheel" Subtype="MonorailSuspensionSideLGWheelMirrored" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Wheel" Subtype="MonorailSuspensionSideSGWheel" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Wheel" Subtype="MonorailSuspensionSideSGWheelMirrored" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Wheel" Subtype="MonorailSuspensionTopLGWheel" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Wheel" Subtype="MonorailSuspensionTopSGWheel" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_AdvancedDoor" Subtype="MonorailTurnout" />
+            <UnlockedByGroups><GroupSubtype>MonorailSuspensions</GroupSubtype></UnlockedByGroups>
+        </ResearchBlock>
+    </ResearchBlocks>
+</Definitions>

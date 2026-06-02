@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ResearchGroups>
+        <ResearchGroup xsi:type="ResearchGroup">
+            <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="MonorailSuspensions" />
+            <Members>
+                <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionTopLG" />
+                <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionTopSG" />
+                <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideLeftLG" />
+                <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideRightLG" />
+                <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideLeftSG" />
+                <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="MonorailSuspensionSideRightSG" />
+            </Members>
+        </ResearchGroup>
+    </ResearchGroups>
+</Definitions>
