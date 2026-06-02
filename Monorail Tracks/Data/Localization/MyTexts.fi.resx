@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -412,6 +412,12 @@
 	</data>
 	<data name="Description_MonorailTurnout" xml:space="preserve">
 		<value>Ohjaa monorailliikennettä kahden ratapolun välillä.</value>
+	</data>
+	<data name="DisplayName_MonorailMergeBlock" xml:space="preserve">
+		<value>Yksikiskojunan yhdistysblokki</value>
+	</data>
+	<data name="Description_MonorailMergeBlock" xml:space="preserve">
+		<value>Yksikiskorata yhdistysblokin kanssa. Mahdollistaa yksikiskoverkkojen jakamisen erillisiksi ruudukoiksi.</value>
 	</data>
 	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
 		<value>Teräsristikkolaatikko Monorailille</value>

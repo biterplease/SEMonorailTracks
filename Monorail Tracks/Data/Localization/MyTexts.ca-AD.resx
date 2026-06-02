@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -412,6 +412,12 @@
 	</data>
 	<data name="Description_MonorailTurnout" xml:space="preserve">
 		<value>Commuta el trànsit del monorail entre dos camins de via.</value>
+	</data>
+	<data name="DisplayName_MonorailMergeBlock" xml:space="preserve">
+		<value>Bloc de fusió del monorail</value>
+	</data>
+	<data name="Description_MonorailMergeBlock" xml:space="preserve">
+		<value>Tram de monorail amb un bloc de fusió. Permet dividir les xarxes de monorail en graelles separades.</value>
 	</data>
 	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
 		<value>Caixa de Gelosia d'Acer per a Monorail</value>

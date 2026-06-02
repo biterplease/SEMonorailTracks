@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -412,6 +412,12 @@
 	</data>
 	<data name="Description_MonorailTurnout" xml:space="preserve">
 		<value>Schaltet den Einschienenbahn-Verkehr zwischen zwei Gleisabschnitten um.</value>
+	</data>
+	<data name="DisplayName_MonorailMergeBlock" xml:space="preserve">
+		<value>Einschienenbahn-Kopplungsblock</value>
+	</data>
+	<data name="Description_MonorailMergeBlock" xml:space="preserve">
+		<value>Einschienenbahn-Abschnitt mit Kopplungsblock. Ermöglicht die Aufteilung von Einschienenbahn-Netzen in getrennte Gitter.</value>
 	</data>
 	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
 		<value>Einschienenbahn-Stahlgitterkasten</value>

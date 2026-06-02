@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -412,6 +412,12 @@
 	</data>
 	<data name="Description_MonorailTurnout" xml:space="preserve">
 		<value>Přepíná provoz jednokolejky mezi dvěma trasami.</value>
+	</data>
+	<data name="DisplayName_MonorailMergeBlock" xml:space="preserve">
+		<value>Spojovací blok jednokolejky</value>
+	</data>
+	<data name="Description_MonorailMergeBlock" xml:space="preserve">
+		<value>Úsek jednokolejky se spojovacím blokem. Umožňuje rozdělení jednokolejkových sítí na samostatné mřížky.</value>
 	</data>
 	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
 		<value>Ocelový Příhradový Box pro Jednokolejku</value>

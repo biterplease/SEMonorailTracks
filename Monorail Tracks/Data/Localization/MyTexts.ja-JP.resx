@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -412,6 +412,12 @@
 	</data>
 	<data name="Description_MonorailTurnout" xml:space="preserve">
 		<value>モノレールの交通を2つの軌道経路の間で切り替えます。</value>
+	</data>
+	<data name="DisplayName_MonorailMergeBlock" xml:space="preserve">
+		<value>モノレール合体ブロック</value>
+	</data>
+	<data name="Description_MonorailMergeBlock" xml:space="preserve">
+		<value>合体ブロック付きモノレール軌道。モノレールネットワークを別々のグリッドに分割できます。</value>
 	</data>
 	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
 		<value>モノレール 鋼格子ボックス</value>

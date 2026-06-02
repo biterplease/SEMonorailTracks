@@ -413,6 +413,12 @@
 	<data name="Description_MonorailTurnout" xml:space="preserve">
 		<value>Switches monorail traffic between two track paths.</value>
 	</data>
+	<data name="DisplayName_MonorailMergeBlock" xml:space="preserve">
+		<value>Monorail Merge Block</value>
+	</data>
+	<data name="Description_MonorailMergeBlock" xml:space="preserve">
+		<value>Monorail track with a merge block. Allows splitting monorail networks into separate grids.</value>
+	</data>
 	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
 		<value>Monorail Steel Lattice Box</value>
 	</data>

@@ -113,6 +113,7 @@
             <Description>{LOC:Description_MonorailConnector}</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="MonorailConnector" />
+                <Block Type="MyObjectBuilder_MergeBlock" Subtype="MonorailMergeBlock" />
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="MonorailTurnout" />
             </Blocks>
         </BlockVariantGroup>
