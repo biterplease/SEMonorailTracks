@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+	<!-- BEGIN Monorail mod -->
+	<data name="DisplayName_ModCategory" xml:space="preserve">
+		<value>Monorraíl</value>
+	</data>
+
+	<!-- BEGIN Monorail Straight and S-Bends -->
+	<data name="DisplayName_MonorailStraight2_5m" xml:space="preserve">
+		<value>Monorraíl Recto 2,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight2_5m" xml:space="preserve">
+		<value>Segmento recto de vía de monorraíl de 2,5 metros (1 bloque).</value>
+	</data>
+  	<data name="DisplayName_MonorailStraight12_5m" xml:space="preserve">
+		<value>Monorraíl Recto 12,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight12_5m" xml:space="preserve">
+		<value>Segmento recto de vía de monorraíl de 12,5 metros (5 bloques).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight25m" xml:space="preserve">
+		<value>Monorraíl Recto 25 m</value>
+	</data>
+	<data name="Description_MonorailStraight25m" xml:space="preserve">
+		<value>Segmento recto de vía de monorraíl de 25 metros (10 bloques).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight50m" xml:space="preserve">
+		<value>Monorraíl Recto 50 m</value>
+	</data>
+	<data name="Description_MonorailStraight50m" xml:space="preserve">
+		<value>Segmento recto de vía de monorraíl de 50 metros (20 bloques).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight100m" xml:space="preserve">
+		<value>Monorraíl Recto 100 m</value>
+	</data>
+	<data name="Description_MonorailStraight100m" xml:space="preserve">
+		<value>Segmento recto de vía de monorraíl de 100 metros (40 bloques).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2" xml:space="preserve">
+		<value>Monorraíl Curva en S 20x2</value>
+	</data>
+	<data name="Description_MonorailSBend20x2" xml:space="preserve">
+		<value>Vía de monorraíl plana en S desplazada 2,5 m (1 bloque) hacia el lado.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Monorraíl Curva en S 20x2 Espejada</value>
+	</data>
+	<data name="Description_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Vía de monorraíl plana en S desplazada 2,5 m (1 bloque) hacia el lado.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3" xml:space="preserve">
+		<value>Monorraíl Curva en S 20x3</value>
+	</data>
+	<data name="Description_MonorailSBend20x3" xml:space="preserve">
+		<value>Vía de monorraíl plana en S desplazada 5,0 m (2 bloques) hacia el lado.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Monorraíl Curva en S 20x3 Espejada</value>
+	</data>
+	<data name="Description_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Vía de monorraíl plana en S desplazada 5,0 m (2 bloques) hacia el lado.</value>
+	</data>
+	<!-- END Monorail Straight and S-Bends -->
+
+	<!-- BEGIN Monorail Ramps -->
+	<data name="DisplayName_MonorailRampSCenterLow" xml:space="preserve">
+		<value>Rampa S (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRampSCenterHigh" xml:space="preserve">
+		<value>Rampa S (Alto)</value>
+	</data>
+	<data name="Description_MonorailRampS" xml:space="preserve">
+		<value>Vía en S con una subida de 2,5 m (1 bloque).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterLow" xml:space="preserve">
+		<value>Rampa 1-10-Inclinación 50 m (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Rampa 1-10-Inclinación 50 m (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline50m" xml:space="preserve">
+		<value>Segmento de monorraíl inclinado 1/10 (~5,7°), 50 metros (20 bloques).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterLow" xml:space="preserve">
+		<value>Rampa 1-10-Inclinación 25 m (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Rampa 1-10-Inclinación 25 m (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline25m" xml:space="preserve">
+		<value>Segmento de monorraíl inclinado 1/10 (~5,7°), 25 metros (10 bloques).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterLow" xml:space="preserve">
+		<value>Rampa 2-10-Inclinación 25 m (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Rampa 2-10-Inclinación 25 m (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline25m" xml:space="preserve">
+		<value>Segmento de monorraíl inclinado 2/10 (~11,4°), 25 metros (10 bloques).</value>
+	</data>
+
+	
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterLow" xml:space="preserve">
+		<value>Rampa 2-10-Inclinación 50 m (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Rampa 2-10-Inclinación 50 m (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline50m" xml:space="preserve">
+		<value>Segmento de monorraíl inclinado 2/10 (~11,4°), 50 metros (20 bloques).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Rampa 2-10 Transición Descenso (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Rampa 2-10 Transición Descenso (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionDown" xml:space="preserve">
+		<value>Transición descendente a vía inclinada 2/10 (~11,3°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Rampa 1-10 Transición Ascenso (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Rampa 1-10 Transición Ascenso (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionUp" xml:space="preserve">
+		<value>Transición ascendente a vía inclinada 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Rampa 1-10 Transición Descenso (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Rampa 1-10 Transición Descenso (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionDown" xml:space="preserve">
+		<value>Transición descendente a vía inclinada 1/10 (~5,7°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp10S" xml:space="preserve">
+		<value>Rampa 10 S</value>
+	</data>
+	<data name="Description_MonorailRamp10S" xml:space="preserve">
+		<value>Vía de monorraíl en S con cambio de pendiente 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Rampa 10-Inclinación 25 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Segmento de monorraíl inclinado 1/10 (~5,7°), 25 metros (10 bloques).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Rampa 10-Inclinación 50 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Segmento de monorraíl inclinado 1/10 (~5,7°), 50 metros (20 bloques).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Rampa 10 Transición Ascenso</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Transición ascendente a vía inclinada 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Rampa 10 Transición Descenso</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Transición descendente a vía inclinada 1/10 (~5,7°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Rampa 2-10 Transición Ascenso (Bajo)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Rampa 2-10 Transición Ascenso (Alto)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionUp" xml:space="preserve">
+		<value>Transición ascendente a vía inclinada 2/10 (~11,3°).</value>
+	</data>
+	<!-- END Monorail Ramps -->
+
+
+	<!--BEGIN Monorail Arcs and banked arc transitions-->
+	<data name="DisplayName_MonorailArcBank0R50" xml:space="preserve">
+		<value>Arco Bank-0-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank0R50" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 0°, radio 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank0R100" xml:space="preserve">
+		<value>Arco Bank-0-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank0R100" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 0°, radio 100 m.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank8R50" xml:space="preserve">
+		<value>Arco Bank-8-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank8R50" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 8°, radio 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8R100" xml:space="preserve">
+		<value>Arco Bank-8-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank8R100" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 8°, radio 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Arco Transición Bank-8</value>
+	</data>
+	<data name="Description_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Transición a vía con peralte 8°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Arco Transición Bank-8 Espejado</value>
+	</data>
+	<data name="Description_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Transición a vía con peralte 8°, espejada.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank16R50" xml:space="preserve">
+		<value>Arco Bank-16-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank16R50" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 16°, radio 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16R100" xml:space="preserve">
+		<value>Arco Bank-16-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank16R100" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 16°, radio 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Arco Transición Bank-16</value>
+	</data>
+	<data name="Description_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Transición a vía con peralte 16°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Arco Transición Bank-16 Espejado</value>
+	</data>
+	<data name="Description_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Transición a vía con peralte 16°.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank24R50" xml:space="preserve">
+		<value>Arco Bank-24-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank24R50" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 24°, radio 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24R100" xml:space="preserve">
+		<value>Arco Bank-24-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank24R100" xml:space="preserve">
+		<value>Arco de monorraíl 90° con peralte 24°, radio 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Arco Transición Bank-24</value>
+	</data>
+	<data name="Description_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Transición a vía con peralte 24°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Arco Transición Bank-24 Espejado</value>
+	</data>
+	<data name="Description_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Transición a vía con peralte 24°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Arco Hélice 10 Bank-24 R50</value>
+	</data>
+	<data name="Description_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Arco helicoidal de monorraíl con subida 10° por segmento, peralte 24°, radio 50 m.</value>
+	</data>
+	<!--END Monorail Arcs and banked arc transitions-->
+
+	<!--BEGIN Monorail Logistics-->
+	<data name="DisplayName_MonorailConnector" xml:space="preserve">
+		<value>Estación de Monorraíl</value>
+	</data>
+	<data name="Description_MonorailConnector" xml:space="preserve">
+		<value>Sección de 12,5 m de vía de monorraíl con conector y cintas transportadoras. El punto de conexión es alto para permitir que los trenes conecten sin cambiar el desplazamiento vertical de las ruedas.</value>
+	</data>
+	<data name="DisplayName_MonorailTurnout" xml:space="preserve">
+		<value>Desvío de Monorraíl</value>
+	</data>
+	<data name="Description_MonorailTurnout" xml:space="preserve">
+		<value>Desvía el tráfico de monorraíl entre dos caminos de vía.</value>
+	</data>
+	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Caja de Celosía de Acero para Monorraíl</value>
+	</data>
+	<data name="Description_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Caja de celosía de acero estructural para el soporte del monorraíl.</value>
+	</data>
+
+	<data name="DisplayName_MonorailSuspensionTop" xml:space="preserve">
+		<value>Suspensión de Rueda Superior para Monorraíl</value>
+	</data>
+	<data name="Description_MonorailSuspensionTop" xml:space="preserve">
+		<value>Suspensión orientada hacia abajo para monorraíles.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Rueda de Suspensión Superior para Monorraíl</value>
+	</data>
+	<data name="Description_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Rueda para la suspensión superior del monorraíl.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Suspensión de Rueda Lateral para Monorraíl (izquierda)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Suspensión lateral para monorraíles (izquierda).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Rueda de Suspensión Lateral para Monorraíl</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Rueda para las suspensiones laterales del monorraíl.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Suspensión de Rueda Lateral para Monorraíl (derecha)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Suspensión lateral para monorraíles (derecha).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Rueda de Suspensión Lateral para Monorraíl (derecha)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Rueda para las suspensiones laterales del monorraíl (lado derecho).</value>
+	</data>
+	<!-- END Monorail mod -->
+</root>

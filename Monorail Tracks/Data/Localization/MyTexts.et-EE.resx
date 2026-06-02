@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+	<!-- BEGIN Monorail mod -->
+	<data name="DisplayName_ModCategory" xml:space="preserve">
+		<value>Monorel</value>
+	</data>
+
+	<!-- BEGIN Monorail Straight and S-Bends -->
+	<data name="DisplayName_MonorailStraight2_5m" xml:space="preserve">
+		<value>Monorel Sirge 2,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight2_5m" xml:space="preserve">
+		<value>Sirge monorelsi radalõik, 2,5 meetrit (1 plokk).</value>
+	</data>
+  	<data name="DisplayName_MonorailStraight12_5m" xml:space="preserve">
+		<value>Monorel Sirge 12,5 m</value>
+	</data>
+	<data name="Description_MonorailStraight12_5m" xml:space="preserve">
+		<value>Sirge monorelsi radalõik, 12,5 meetrit (5 plokki).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight25m" xml:space="preserve">
+		<value>Monorel Sirge 25 m</value>
+	</data>
+	<data name="Description_MonorailStraight25m" xml:space="preserve">
+		<value>Sirge monorelsi radalõik, 25 meetrit (10 plokki).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight50m" xml:space="preserve">
+		<value>Monorel Sirge 50 m</value>
+	</data>
+	<data name="Description_MonorailStraight50m" xml:space="preserve">
+		<value>Sirge monorelsi radalõik, 50 meetrit (20 plokki).</value>
+	</data>
+	<data name="DisplayName_MonorailStraight100m" xml:space="preserve">
+		<value>Monorel Sirge 100 m</value>
+	</data>
+	<data name="Description_MonorailStraight100m" xml:space="preserve">
+		<value>Sirge monorelsi radalõik, 100 meetrit (40 plokki).</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2" xml:space="preserve">
+		<value>Monorel S-Kõverik 20x2</value>
+	</data>
+	<data name="Description_MonorailSBend20x2" xml:space="preserve">
+		<value>Tasane S-kujuline monorelsi lõik, nihkub 2,5 m (1 plokk) külili.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Monorel S-Kõverik 20x2 Peegeldatud</value>
+	</data>
+	<data name="Description_MonorailSBend20x2Inv" xml:space="preserve">
+		<value>Tasane S-kujuline monorelsi lõik, nihkub 2,5 m (1 plokk) külili.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3" xml:space="preserve">
+		<value>Monorel S-Kõverik 20x3</value>
+	</data>
+	<data name="Description_MonorailSBend20x3" xml:space="preserve">
+		<value>Tasane S-kujuline monorelsi lõik, nihkub 5,0 m (2 plokki) külili.</value>
+	</data>
+	<data name="DisplayName_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Monorel S-Kõverik 20x3 Peegeldatud</value>
+	</data>
+	<data name="Description_MonorailSBend20x3Inv" xml:space="preserve">
+		<value>Tasane S-kujuline monorelsi lõik, nihkub 5,0 m (2 plokki) külili.</value>
+	</data>
+	<!-- END Monorail Straight and S-Bends -->
+
+	<!-- BEGIN Monorail Ramps -->
+	<data name="DisplayName_MonorailRampSCenterLow" xml:space="preserve">
+		<value>Kaldtee S (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRampSCenterHigh" xml:space="preserve">
+		<value>Kaldtee S (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRampS" xml:space="preserve">
+		<value>S-kujuline lõik tõusuga 2,5 m (1 plokk).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterLow" xml:space="preserve">
+		<value>Kaldtee 1-10-Kalle 50 m (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Kaldtee 1-10-Kalle 50 m (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline50m" xml:space="preserve">
+		<value>Kallutatud monorelsi lõik, kalle 1/10 (~5,7°), 50 meetrit (20 plokki).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterLow" xml:space="preserve">
+		<value>Kaldtee 1-10-Kalle 25 m (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Kaldtee 1-10-Kalle 25 m (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10Incline25m" xml:space="preserve">
+		<value>Kallutatud monorelsi lõik, kalle 1/10 (~5,7°), 25 meetrit (10 plokki).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterLow" xml:space="preserve">
+		<value>Kaldtee 2-10-Kalle 25 m (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline25mCenterHigh" xml:space="preserve">
+		<value>Kaldtee 2-10-Kalle 25 m (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline25m" xml:space="preserve">
+		<value>Kallutatud monorelsi lõik, kalle 2/10 (~11,4°), 25 meetrit (10 plokki).</value>
+	</data>
+
+	
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterLow" xml:space="preserve">
+		<value>Kaldtee 2-10-Kalle 50 m (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10Incline50mCenterHigh" xml:space="preserve">
+		<value>Kaldtee 2-10-Kalle 50 m (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10Incline50m" xml:space="preserve">
+		<value>Kallutatud monorelsi lõik, kalle 2/10 (~11,4°), 50 meetrit (20 plokki).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Kaldtee 2-10 Üleminek Alla (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Kaldtee 2-10 Üleminek Alla (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionDown" xml:space="preserve">
+		<value>Allasuunduv üleminek kallutatud lõigule 2/10 (~11,3°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Kaldtee 1-10 Üleminek Üles (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Kaldtee 1-10 Üleminek Üles (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionUp" xml:space="preserve">
+		<value>Ülessuunduv üleminek kallutatud lõigule 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterLow" xml:space="preserve">
+		<value>Kaldtee 1-10 Üleminek Alla (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp1_10TransitionDownCenterHigh" xml:space="preserve">
+		<value>Kaldtee 1-10 Üleminek Alla (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp1_10TransitionDown" xml:space="preserve">
+		<value>Allasuunduv üleminek kallutatud lõigule 1/10 (~5,7°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp10S" xml:space="preserve">
+		<value>Kaldtee 10 S</value>
+	</data>
+	<data name="Description_MonorailRamp10S" xml:space="preserve">
+		<value>S-kujuline monorelsi lõik kalde muutusega 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Kaldtee 10-Kalle 25 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline25m" xml:space="preserve">
+		<value>Kallutatud monorelsi lõik, kalle 1/10 (~5,7°), 25 meetrit (10 plokki).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Kaldtee 10-Kalle 50 m</value>
+	</data>
+	<data name="Description_MonorailRamp10Incline50m" xml:space="preserve">
+		<value>Kallutatud monorelsi lõik, kalle 1/10 (~5,7°), 50 meetrit (20 plokki).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Kaldtee 10 Üleminek Üles</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionUp" xml:space="preserve">
+		<value>Ülessuunduv üleminek kallutatud lõigule 1/10 (~5,7°).</value>
+	</data>
+	<data name="DisplayName_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Kaldtee 10 Üleminek Alla</value>
+	</data>
+	<data name="Description_MonorailRamp10TransitionDown" xml:space="preserve">
+		<value>Allasuunduv üleminek kallutatud lõigule 1/10 (~5,7°).</value>
+	</data>
+
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterLow" xml:space="preserve">
+		<value>Kaldtee 2-10 Üleminek Üles (Madal)</value>
+	</data>
+	<data name="DisplayName_MonorailRamp2_10TransitionUpCenterHigh" xml:space="preserve">
+		<value>Kaldtee 2-10 Üleminek Üles (Kõrge)</value>
+	</data>
+	<data name="Description_MonorailRamp2_10TransitionUp" xml:space="preserve">
+		<value>Ülessuunduv üleminek kallutatud lõigule 2/10 (~11,3°).</value>
+	</data>
+	<!-- END Monorail Ramps -->
+
+
+	<!--BEGIN Monorail Arcs and banked arc transitions-->
+	<data name="DisplayName_MonorailArcBank0R50" xml:space="preserve">
+		<value>Kaar Bank-0-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank0R50" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 0°, raadius 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank0R100" xml:space="preserve">
+		<value>Kaar Bank-0-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank0R100" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 0°, raadius 100 m.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank8R50" xml:space="preserve">
+		<value>Kaar Bank-8-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank8R50" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 8°, raadius 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8R100" xml:space="preserve">
+		<value>Kaar Bank-8-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank8R100" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 8°, raadius 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Kaar Üleminek Bank-8</value>
+	</data>
+	<data name="Description_MonorailArcBank8Transition" xml:space="preserve">
+		<value>Üleminek rajale kallakuga 8°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Kaar Üleminek Bank-8 Peegeldatud</value>
+	</data>
+	<data name="Description_MonorailArcBank8TransitionInv" xml:space="preserve">
+		<value>Üleminek rajale kallakuga 8°, peegeldatud.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank16R50" xml:space="preserve">
+		<value>Kaar Bank-16-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank16R50" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 16°, raadius 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16R100" xml:space="preserve">
+		<value>Kaar Bank-16-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank16R100" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 16°, raadius 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Kaar Üleminek Bank-16</value>
+	</data>
+	<data name="Description_MonorailArcBank16Transition" xml:space="preserve">
+		<value>Üleminek rajale kallakuga 16°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Kaar Üleminek Bank-16 Peegeldatud</value>
+	</data>
+	<data name="Description_MonorailArcBank16TransitionInv" xml:space="preserve">
+		<value>Üleminek rajale kallakuga 16°.</value>
+	</data>
+
+	<data name="DisplayName_MonorailArcBank24R50" xml:space="preserve">
+		<value>Kaar Bank-24-R50</value>
+	</data>
+	<data name="Description_MonorailArcBank24R50" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 24°, raadius 50 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24R100" xml:space="preserve">
+		<value>Kaar Bank-24-R100</value>
+	</data>
+	<data name="Description_MonorailArcBank24R100" xml:space="preserve">
+		<value>Monorelsi kaar 90° kallakuga 24°, raadius 100 m.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Kaar Üleminek Bank-24</value>
+	</data>
+	<data name="Description_MonorailArcBank24Transition" xml:space="preserve">
+		<value>Üleminek rajale kallakuga 24°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Kaar Üleminek Bank-24 Peegeldatud</value>
+	</data>
+	<data name="Description_MonorailArcBank24TransitionInv" xml:space="preserve">
+		<value>Üleminek rajale kallakuga 24°.</value>
+	</data>
+	<data name="DisplayName_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Kaar Helix 10 Bank-24 R50</value>
+	</data>
+	<data name="Description_MonorailArcHelix10Bank24R50" xml:space="preserve">
+		<value>Spiraalne monorelsi kaar, tõus 10° segmendi kohta, kallak 24°, raadius 50 m.</value>
+	</data>
+	<!--END Monorail Arcs and banked arc transitions-->
+
+	<!--BEGIN Monorail Logistics-->
+	<data name="DisplayName_MonorailConnector" xml:space="preserve">
+		<value>Monorelsi Jaam</value>
+	</data>
+	<data name="Description_MonorailConnector" xml:space="preserve">
+		<value>12,5 m monorelsi lõik konnektori ja transportööridega. Ühenduspunkt on kõrgel, et rongid saaksid ühenduda ilma rataste kõrguse nihket muutmata.</value>
+	</data>
+	<data name="DisplayName_MonorailTurnout" xml:space="preserve">
+		<value>Monorelsi Pöörme</value>
+	</data>
+	<data name="Description_MonorailTurnout" xml:space="preserve">
+		<value>Suunab monorelsi liikluse kahe rajatee vahel.</value>
+	</data>
+	<data name="DisplayName_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Terasristikkarp Monorelsi Tarbeks</value>
+	</data>
+	<data name="Description_MonorailSteelLatticeBox" xml:space="preserve">
+		<value>Konstruktiivne terasristikkarp monorelsi toena.</value>
+	</data>
+
+	<data name="DisplayName_MonorailSuspensionTop" xml:space="preserve">
+		<value>Monorelsi Ülemine Rattavedrustus</value>
+	</data>
+	<data name="Description_MonorailSuspensionTop" xml:space="preserve">
+		<value>Allapoole suunatud vedrustus monorelsi tarbeks.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Monorelsi Ülemise Vedrustuse Ratas</value>
+	</data>
+	<data name="Description_MonorailSuspensionTopWheel" xml:space="preserve">
+		<value>Ratas monorelsi ülemise vedrustuse tarbeks.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Monorelsi Külgmine Rattavedrustus (vasak)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideLeft" xml:space="preserve">
+		<value>Külgmine vedrustus monorelsi tarbeks (vasak).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Monorelsi Külgmise Vedrustuse Ratas</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheel" xml:space="preserve">
+		<value>Ratas monorelsi külgmiste vedrustuste tarbeks.</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Monorelsi Külgmine Rattavedrustus (parem)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideRight" xml:space="preserve">
+		<value>Külgmine vedrustus monorelsi tarbeks (parem).</value>
+	</data>
+	<data name="DisplayName_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Monorelsi Külgmise Vedrustuse Ratas (parem)</value>
+	</data>
+	<data name="Description_MonorailSuspensionSideWheelMirrored" xml:space="preserve">
+		<value>Ratas monorelsi külgmiste vedrustuste tarbeks (parempoolne).</value>
+	</data>
+	<!-- END Monorail mod -->
+</root>
