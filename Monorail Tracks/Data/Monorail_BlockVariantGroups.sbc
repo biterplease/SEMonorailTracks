@@ -113,6 +113,7 @@
             <Description>{LOC:Description_MonorailSuspensionTop}</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="MonorailConnector" />
+                <Block Type="MyObjectBuilder_AdvancedDoorDefinition" Subtype="MonorailTurnout" />
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>

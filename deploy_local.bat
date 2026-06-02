@@ -108,11 +108,11 @@ if errorlevel 1 (
 
 
 
-copy /Y "%SOURCE%\modinfo.sbm" "%DEST%\modinfo.sbm" >nul
+copy /Y "%SOURCE%\modinfo.sbmi" "%DEST%\modinfo.sbmi" >nul
 
 if errorlevel 1 (
 
-    call :log "ERROR: failed copying modinfo.sbm"
+    call :log "ERROR: failed copying modinfo.sbmi"
 
     exit /b 1
 
